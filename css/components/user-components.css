@@ -1,0 +1,41 @@
+.user-components{
+  display:flex;
+  justify-content: space-between;
+}
+
+.user-components__column{
+  display: flex;
+  align-items: center;
+}
+
+
+.user-components__avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.avatar__xs{
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.avatar__xl{
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.user-components__column__text{
+  margin-left: 10px;
+}  
+
+.user-components__column:last-child{
+  color: var(--color-light-grey);
+}
+
+.user-components__column:last-child .fa-angle-right{
+  margin-left: 5px;
+}

@@ -4,11 +4,15 @@
 
 /*componets*/
 @import "components/status-bar.css";
-
+@import "components/main-header.css";
+@import "components/user-components.css";
+@import "components/nav-bar.css";
 
 
 /*screens*/
 @import "screens/welcome-screen.css";
+@import "screens/alt-header.css";
+@import "screens/channel-screen.css";
 
 
 body{

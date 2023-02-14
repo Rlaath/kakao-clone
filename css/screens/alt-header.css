@@ -1,0 +1,13 @@
+.alt-header{
+  text-align: center;
+  background-color:rgb(236, 235, 236);
+  padding: 10px 0;
+}
+
+.alt-header i{
+  opacity: 0.3;
+}
+
+.alt-header span{
+  margin: 0 10px;
+}

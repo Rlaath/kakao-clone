@@ -1,0 +1,22 @@
+.main-screen{
+
+  padding: var(--main-padding);
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+
+  
+}
+
+.main-header__title span{
+  font-size: var(--font-large);
+  font-weight: 600;
+}
+
+.main-header__icons i{
+  margin-left: 15px;
+}

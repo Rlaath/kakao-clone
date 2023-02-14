@@ -1,0 +1,7 @@
+.friends-screen__channel-header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: var(--border-main);
+  color: var(--color-light-grey);
+}

@@ -1,0 +1,40 @@
+.navbar{
+position: fixed;
+bottom: 0;
+display: flex;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+padding: 20px 40px;
+border-top: var(--border-main);
+}
+
+.navbar__list{
+  position: relative;
+}
+
+.navbar__notification{
+  background-color: tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: center;
+  color: white;
+  font-size: small;
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation{
+  0%{
+      transform: none;
+  }
+  50%{
+      transform: rotateY(360deg);
+  }
+  100%{
+      transform: none;
+  }
+}
