@@ -32,20 +32,19 @@
   margin-bottom: 10px;
 }
 
-#login-form .password{
-  margin-bottom:40px; 
-}
 
 #login-form input{
   border: none;
   font-size:var(--font-small);
-
 }
 
-#login-form .username,
-#login-form .password{
+#login-form input[type=submit]{
+  background-color: var(--color-yellow);
+}
+
+#login-form input:required{
   border-bottom: var(--border-main);
-} 
+}
 
 input:focus,
 input:active{
@@ -54,7 +53,6 @@ input:active{
 
 input[type=submit]:hover{
   cursor: pointer;
-  background-color: var(--color-dark-grey);
 
 }
 
