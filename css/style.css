@@ -1,14 +1,14 @@
-@import "/css/reset.css";
+@import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
-@import "/css/variables.css";
+@import "variables.css";
 
 /*componets*/
-@import "/css/components/status-bar.css";
+@import "components/status-bar.css";
 
 
 
 /*screens*/
-@import "/css/screens/welcome-screen.css";
+@import "screens/welcome-screen.css";
 
 
 body{
