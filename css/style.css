@@ -1,0 +1,21 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import "/css/variables.css";
+
+/*componets*/
+@import "/css/components/status-bar.css";
+
+
+
+/*screens*/
+@import "/css/screens/welcome-screen.css";
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

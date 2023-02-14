@@ -1,0 +1,14 @@
+:root{
+  /*color*/
+  --color-yellow : #f7d500;
+  --color-grey : #8a8a8a;
+  --color-dark-grey : rgba(172,174,178, 0.5);
+  --color-light-grey : rgb(140, 141, 143);
+
+  /*size*/
+  --font-large : 24px;
+  --font-medium : 20px;
+  --font-small : 16px;
+
+  --border-main : 1px solid #8a8a8a;
+}
