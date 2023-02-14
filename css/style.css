@@ -13,7 +13,7 @@
 @import "screens/welcome-screen.css";
 @import "screens/alt-header.css";
 @import "screens/channel-screen.css";
-
+@import "screens/notifications.css";
 
 body{
   font-family: 'Open Sans', sans-serif;

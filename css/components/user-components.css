@@ -10,8 +10,8 @@
 
 
 .user-components__avatar{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 30px;
   margin: 20px 0;
 }
@@ -28,12 +28,32 @@
   border-radius: 35px;
 }
 
+.user-components__column__text-title{
+  font-size: large;
+  font-weight: 600;
+}
+
+.user-components__column__text-subtitle{
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.user-components__column-time{
+  font-size: 12px;
+}
+
 .user-components__column__text{
   margin-left: 10px;
 }  
 
 .user-components__column:last-child{
   color: var(--color-light-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-components__column:last-child .fa-angle-right{
