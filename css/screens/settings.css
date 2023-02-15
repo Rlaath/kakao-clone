@@ -1,0 +1,25 @@
+.settings__row-ul{
+  display: flex;
+  flex-direction: column;
+}
+.settings__row-column{
+  position: relative;
+}
+.settings__row-column:last-child{
+  color: var(--color-dark-grey);
+}
+
+.settings__row-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: var(--border-main);
+}
+
+.settings__row-column i{
+  font-size: 22px;
+  margin-right: 20px;
+}
+

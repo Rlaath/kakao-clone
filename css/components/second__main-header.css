@@ -1,0 +1,11 @@
+.second__main-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.second__main-header__column:nth-child(2){
+  font-size: var(--font-large);
+  font-weight: 600;
+}
+

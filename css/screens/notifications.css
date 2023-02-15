@@ -10,3 +10,31 @@
   font-size: x-small;
   margin-top: 10px;
 }
+
+.new__notification{
+  position: absolute;
+  top:4px;
+  left: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation{
+  0%{
+      transform: none;
+  }
+  50%{
+      transform: rotateY(360deg);
+  }
+  100%{
+      transform: none;
+  }
+}

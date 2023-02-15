@@ -15,15 +15,17 @@ border-top: var(--border-main);
 
 .navbar__notification{
   background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   position: absolute;
   bottom: 10px;
   left: 10px;
-  text-align: center;
   color: white;
-  font-size: small;
+  font-size: x-small;
   animation: notificationAnimation 3s ease-in-out infinite;
 }
 

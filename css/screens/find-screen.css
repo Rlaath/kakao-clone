@@ -125,6 +125,7 @@ body{
 }
 
 .openchat_heart:hover i{
+  will-change: transform;
   animation: heartBeat 1s ease-in-out infinite;
 }
 .openchat_heart span{
