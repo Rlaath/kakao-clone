@@ -15,6 +15,7 @@
 @import "screens/channel-screen.css";
 @import "screens/notifications.css";
 @import "screens/find-screen.css";
+@import "screens/more-screen.css";
 
 body{
   font-family: 'Open Sans', sans-serif;
