@@ -3,8 +3,10 @@
   justify-content: space-between;
   box-sizing: border-box;
   padding: 3px;
+  padding-bottom: 50px;
   position: fixed;
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 1;
 }

@@ -1,7 +1,7 @@
 .main-screen{
 
   padding: var(--main-padding);
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .main-header{
@@ -9,6 +9,13 @@
   justify-content: space-between;
   align-items: center;
   margin: 30px 0;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  
+  background-color: white;
+  z-index: 1;
 
   
 }

@@ -20,10 +20,11 @@
 @import "screens/more-screen.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/splash.css";
 
 body{
   font-family: 'Open Sans', sans-serif;
-  height: 110vh;
+
 }
 
 a{

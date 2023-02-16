@@ -1,0 +1,30 @@
+#splash{
+  background-color:deepskyblue;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: splashScreen 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+
+}
+
+#splash i{
+  font-size: 120px;
+  color: rgb(12, 51, 81);
+}
+
+@keyframes splashScreen{
+  from{
+    opacity: 1;
+
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
