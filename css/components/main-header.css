@@ -1,6 +1,7 @@
 .main-screen{
 
   padding: var(--main-padding);
+  margin-top: 50px;
 }
 
 .main-header{

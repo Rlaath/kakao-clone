@@ -1,11 +1,22 @@
 .second__main-header{
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  align-items: center;
+  padding: var(--main-padding);
+}
+
+.second__main-header__column{
+  width: 33%;
 }
 
 .second__main-header__column:nth-child(2){
+  display: flex;
+  justify-content: center;
   font-size: var(--font-large);
   font-weight: 600;
 }
 
+.second__main-header__column:last-child{
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+#chat-screen{
+  background-color: dodgerblue;
+}
+
+.fa-bars{
+  margin-left: 15px;
+}
+
+.second__main-header{
+  margin-top: 40px;
+}
+
+.chat__second-header{
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
