@@ -9,7 +9,7 @@
 </head>
 <body id="chat-screen">
 
-  <div class="status-bar">
+  <div class="status-bar chat__status-bar">
     <div class="status-bar__column">
       <span>No service</span>
       <i class="fa-solid fa-wifi"></i>
@@ -24,12 +24,12 @@
     </div>
   </div>
 
-  <div class="second__main-header chat__second-header">
+  <div class="second__main-header chat__header">
     <div class="second__main-header__column">
-      <a href="more.html"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
+      <a href="chats.html"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
     </div>
     <div class="second__main-header__column">
-      Sohee
+      Nicolas Serrano
     </div>
     <div class="second__main-header__column">
       <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -37,9 +37,45 @@
     </div>
   </div>
 
-  <main class="main-screen">
+  <main class="main-screen chat__main-screen">
 
+    <div class="chat__date">
+      <span>Tuesday, June 30, 2020</span>
+    </div>
+
+    <div class="chat__row chat__row-friend">
+      <img class="avatar__chat" src="https://avatars.githubusercontent.com/u/3612017?v=4" alt="">
+      <div class="chat__row-contents">
+        <div class="chat__row-contents__title">Nicolas Serrano</div>
+        <div class="chat__row-contents_text chat-friend">
+          <span>Hi!</span>
+          <span>21:27</span>
+        </div>
+      </div>
+    </div>
+    <div class="chat__row chat__row-me">
+      <div class="chat__row-contents">
+        <div class="chat__row-contents_text chat-me">
+          <span>How are you?</span>
+          <span>21:27</span>
+        </div>
+      </div>
+    </div>
   </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message">
+      <i class="far fa-smile-wink"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+  </form>
 
 
 
